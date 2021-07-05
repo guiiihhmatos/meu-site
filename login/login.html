@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <title>Login</title>
+
+</head>
+<style>
+    *{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    background-color: #5F7CBA;
+}
+    form{
+        background-color: white;
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 130px;
+        border-radius: 30px;
+      
+    }
+
+
+
+    form h3{
+        text-align: center;
+        color: #5F7CBA;
+        font-size: 20pt;
+        font-family: Arial, Helvetica, sans-serif;
+     
+        
+    }
+    form input[type=email], form input[type=password]{
+        width: 100%;
+        height: 45px;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+        margin: 10px 0;
+      
+    }
+
+    form input[type=submit]{
+        width: 100%;
+        height: 30px;
+        cursor: pointer;
+        background-color: #5F7CBA;
+        color: white ;
+        border: 0;
+        border-radius: 20px;
+    }
+
+    form input[type=submit]:hover{
+        background-color: #4A5F6A;
+       
+    }
+    img {
+     margin-left: 40%;
+    
+    }
+
+    hr{
+        margin-bottom: 40px;
+        margin-top: 40px;
+        border: 1px solid;
+    }
+    a{
+       color: #adadad;
+       text-decoration: none;
+     
+    }
+    div {
+        margin-top: 10px;
+        margin-bottom: 13px;
+        text-align: center;
+        color: #adadad;
+    }
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+footer{
+    background: white;
+    text-align: center;
+    margin-top: 500px;
+}
+
+</style>
+
+<body>
+    <img src="sobre - Copia.png" alt="login-png">
+<form action="" name="cd">
+
+<h3>Login</h3>
+<hr>
+<input type="email" name="email" placeholder="Seu email..." id="email">
+<input type="password" name="senha" placeholder="Sua senha..." id="senha">
+ <div>Esqueci minha senha <a href="#">Clique aqui</a></div> 
+<input type="submit" name="acao" value="Enviar" onclick="enviar()">
+<div><a href="#">Cadastra-se</a></div>
+</form>
+
+
+
+<script src="login.js"></script>
+
+</body>
+</html>
